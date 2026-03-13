@@ -41,6 +41,24 @@
     align-items: center;
 }
 
+.h2-combos{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    height: 80px;    
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.countainer3-products{
+    background-color: rgb(247, 118, 33);
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+}
+
 .product{
     display: flex;
     flex-direction: column;
@@ -69,4 +87,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footer{
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer h3,
+.footer h4{
+    margin-bottom: 10px;
+}
+
+.footer p{
+    margin: 5px 0;
+}
+
+.footer-copy{
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
 }
