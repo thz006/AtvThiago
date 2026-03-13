@@ -7,6 +7,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
 }
 
 .navbar{
@@ -16,6 +17,9 @@ html{
     gap: 30px;
     background-color: black;
     height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo img{
