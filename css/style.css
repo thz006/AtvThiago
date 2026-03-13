@@ -1,7 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .bodysite{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -13,10 +18,28 @@
     height: 10vh;
 }
 
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
 .navbar-item{
     font-size: 20px;
     text-decoration: none;
     color: white;
+    
+}
+
+.navbar-item:hover{
+    font-size: 20px;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.navbar-item:active{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
 }
 
 .h1-title{
@@ -26,7 +49,7 @@
 }
 
 .countainer1-products{
-    background-color: rgb(247, 118, 33);
+    background-color: rgb(247, 118, 33, 0.9);
     display: flex;
     width: 100vw;
     height: 70vh;
@@ -34,11 +57,12 @@
 }
 
 .countainer2-products{
-    background-color: rgb(247, 118, 33);
+    background-color: rgb(247, 118, 33, 0.9);
     display: flex;
     width: 100vw;
     height: 70vh;
     align-items: center;
+    margin-top: 5%;
 }
 
 .product{
@@ -55,13 +79,21 @@
 }
 
 .product-description{
-    width: 50%;
+    width: 70%;
 }
 
 .product-img img{
     border-radius: 10px;
-    width: 250px;
-    height: 200px;
+    display: flex;
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.product-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-info{
